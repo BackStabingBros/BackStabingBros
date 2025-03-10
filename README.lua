@@ -1,5 +1,3 @@
-
-
 local function Kick(reason)
     game:GetService("Players").LocalPlayer.Kick(game:GetService("Players").LocalPlayer, "")
     game:GetService("CoreGui").RobloxPromptGui.promptOverlay.ErrorPrompt.TitleFrame.ErrorTitle.Text = "Universal Farm"
